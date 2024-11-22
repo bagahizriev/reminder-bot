@@ -7,7 +7,7 @@ cd ~/reminder_bot
 if [ ! -d ".git" ]; then
     cd ..
     rm -rf reminder_bot
-    git clone https://github.com/your-username/reminder-bot.git
+    git clone https://github.com/bagahizriev/reminder-bot.git
     cd reminder_bot
 fi
 

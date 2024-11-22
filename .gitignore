@@ -2,5 +2,8 @@ __pycache__/
 *.pyc
 .env
 reminders.db
-temp/ 
+temp/
 .venv/
+venv/
+env/
+ENV/
