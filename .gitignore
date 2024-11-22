@@ -1,7 +1,7 @@
 __pycache__/
 *.pyc
 .env
-reminders.db
+data/
 temp/
 .venv/
 venv/

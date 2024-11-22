@@ -4,9 +4,10 @@ services:
   bot:
     build: .
     volumes:
-      - ./reminders.db:/app/reminders.db
+      - ./data:/app/data
       - ./temp:/app/temp
     environment:
       - TELEGRAM_TOKEN=${TELEGRAM_TOKEN}
       - HUGGING_FACE_TOKEN=${HUGGING_FACE_TOKEN}
+      - DATABASE_PATH=/app/data/reminders.db
     restart: always
